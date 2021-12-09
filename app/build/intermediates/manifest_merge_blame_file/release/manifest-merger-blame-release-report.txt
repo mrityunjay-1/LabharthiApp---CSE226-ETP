@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.labharthiapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[:react-native-fs] D:\react-native\LabharthiApp\node_modules\react-native-fs\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-81
+13-->[:react-native-fs] D:\react-native\LabharthiApp\node_modules\react-native-fs\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-78
+14
+15    <application
+15-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:7:5-26:19
+16        android:name="com.labharthiapp.MainApplication"
+16-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:8:7-38
+17        android:allowBackup="false"
+17-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:12:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\kumar\.gradle\caches\transforms-3\2780a7d58323a095a84203f45c645c6e\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:10:7-41
+20        android:label="@string/app_name"
+20-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:9:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:11:7-52
+22        android:theme="@style/AppTheme"
+22-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:13:7-38
+23        android:usesCleartextTraffic="true" >
+23-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:14:7-42
+24        <activity
+24-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:15:7-25:18
+25            android:name="com.labharthiapp.MainActivity"
+25-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:16:9-37
+26            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+26-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:18:9-86
+27            android:label="@string/app_name"
+27-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:17:9-41
+28            android:launchMode="singleTask"
+28-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:19:9-40
+29            android:windowSoftInputMode="adjustResize" >
+29-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:20:9-51
+30            <intent-filter>
+30-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:21:9-24:25
+31                <action android:name="android.intent.action.MAIN" />
+31-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:22:13-65
+31-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:22:21-62
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:23:13-73
+33-->D:\react-native\LabharthiApp\android\app\src\main\AndroidManifest.xml:23:23-70
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+38            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+38-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-83
+39            android:authorities="com.labharthiapp.fileprovider"
+39-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-64
+40            android:exported="false"
+40-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+41            android:grantUriPermissions="true" >
+41-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+42            <meta-data
+42-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:63
+43                android:name="android.support.FILE_PROVIDER_PATHS"
+43-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+44                android:resource="@xml/file_provider_paths" />
+44-->[:react-native-webview] D:\react-native\LabharthiApp\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-60
+45        </provider>
+46    </application>
+47
+48</manifest>

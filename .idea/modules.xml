@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LabharthiApp.iml" filepath="$PROJECT_DIR$/.idea/modules/LabharthiApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LabharthiApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LabharthiApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-393400394/LabharthiApp.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/-393400394/LabharthiApp.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1654905283/LabharthiApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1654905283/LabharthiApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-577845825/LabharthiApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-577845825/LabharthiApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-574708890/LabharthiApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-574708890/LabharthiApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/698739454/LabharthiApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/698739454/LabharthiApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-42317968/LabharthiApp.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/-42317968/LabharthiApp.react-native-webview.iml" />
+    </modules>
+  </component>
+</project>
